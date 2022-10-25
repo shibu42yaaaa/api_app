@@ -1,25 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+RailsのAPIモードを実装
 
-Things you may want to cover:
+ローカル環境での実装
+以下のアドレスにてJSONデータを取得する
+http://localhost:3000/users
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# api_app
+作成ファイル
+model: user.rb
+controller: usrs_controller.rb
+seedファイル
